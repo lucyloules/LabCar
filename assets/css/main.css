@@ -1,0 +1,8 @@
+.taxi{
+	background-image: url(../images/taxi.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+.text-rigth{
+	background-color: yellow;
+}
