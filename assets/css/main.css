@@ -124,7 +124,7 @@ ul{
 }
 .footer1 li a:hover{
   line-height: 3em;
-  color: #F7B617;
+  font-weight: bolder;
   text-decoration: underline;
 }
 .icon-footer{
