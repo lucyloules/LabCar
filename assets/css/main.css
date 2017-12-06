@@ -1,18 +1,18 @@
 body{
-	color: #fff;
-	background-color: #ffc107;
+    color: #fff;
+    background-color: #ffc107;
 }
 .special{
-	height:5em;
+    height:5em;
 }
 /*clases reutilizables*/
 .bkd{
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 .taxi{
-	background-image: url(../images/taxi.jpg);
+    background-image: url(../images/taxi.jpg);
 
 }
 .registro{
@@ -20,20 +20,14 @@ body{
   margin-top: 11em;
   margin-bottom: 19em;
   padding: 1em 0 2em 2em;
-  outline: 1px solid green;
 }
 
-.logo-white{
-  width: 50%;
+img.logo-white{
+  width: 30%;
+  padding: 3%;
   padding-left: 2em;
-  outline: 1px solid red;
 }
-.y{
-	width:50%;
-	margin-left: 2em;
-	text-align: right;
-	outline: 1px solid blue;
-}
+
 .container-fluid{
 padding:0;
 }
@@ -52,62 +46,66 @@ padding:0;
     margin-left: 1.5em;
 }
 .cell{
-	background-color: #ffc107;
-	height: 70vh;
+    background-color: #ffc107;
+    height: 70vh;
 }
 .phone{
-	width:50%;
-	height: 50vh;
-/*	padding: 5%;*/
-	background-image:url(../images/iPhone6Plus.png); 
-	background-repeat: no-repeat;
-	background-size: 40%;
-	outline: 1px solid green;
-
+    width:50%;
+    height: 50vh;
+    background-image:url(../images/iPhone6Plus.png); 
+    background-repeat: no-repeat;
+    background-size: 40%;
+    }
+.phone2{
+    width:70%;
+    height: 50vh;
+    background-image:url(../images/iPhone6Plus.png); 
+    background-repeat: no-repeat;
+    background-size: 40%;
 }
 .border{
-	border: 1px solid #fff;
-	padding: 2%;
+    border: 1px solid #fff;
+    padding: 2%;
+    margin: 0% 5%;
 }
 .text-phone{
-	color: #fff;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	padding-left: 14%;
-	padding-right: 14%;
-	text-align: justify;
-	outline: 1px solid red;
+    color: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
 }
 .section-driver{
-	background-image: url(../images/conduce.jpg);
+    background-image: url(../images/conduce.jpg);
 }
 .text-conduce{
-	float: right;
+    float: right;
 }
 .text-tarifas{
-	padding: 10%;
-	opacity: 0.6;
-	outline: 1px solid red;
+    padding: 10%;
+    opacity: 0.6;
+    outline: 1px solid red;
 }
 .section-map{
 
 }
 section{
-	height: 100vh;
-	background-position: bottom;
+    height: 100vh;
+    background-position: bottom;
 }
 footer{
-	background-color: #292828;
-	padding: 3%;
-	/*height: 80vh;*/
-	color:#fff;
-	line-height: 3em;
+    background-color: #292828;
+    padding: 3%;
+    /*height: 80vh;*/
+    color:#fff;
+    line-height: 3em;
 }
 ul{
-	list-style: none;
+    list-style: none;
 }
 .item{
-	color: #fff;
+    color: #fff;
 }
 .logo-footer{
   width: 8em;
@@ -138,4 +136,22 @@ ul{
 }
 .logo-app2{
   width: 10em;
+}
+.partida, .destino{
+  width: 15em;
+  border:1px solid #fff;
+  background-color: transparent;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+#btn-chofer{
+  background-color: #ffc107;
+}
+.text-chofer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 7em 2em 8em 3em;
+    margin-top: 0em;
+    margin-bottom: 19em;
+    padding: 1em 0 2em 2em;
 }
