@@ -1,21 +1,38 @@
 body{
 	color: #fff;
-	background-color: ##ffc107;
+	background-color: #ffc107;
 }
-
+.special{
+	height:5em;
+}
+/*clases reutilizables*/
+.bkd{
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
 .taxi{
 	background-image: url(../images/taxi.jpg);
 
 }
-.text-rigth{
-	padding-left: 3%;
-	background-color: #ffc107;
-	float: right;
-	color: #fff;
+.registro{
+  background-color: #ffc107;
+  margin-top: 11em;
+  margin-bottom: 19em;
+  padding: 1em 0 2em 2em;
+  outline: 1px solid green;
 }
+
 .logo-white{
-	width: 15%;
-	background-image: url(../images/logoBlanco.png); 
+  width: 50%;
+  padding-left: 2em;
+  outline: 1px solid red;
+}
+.y{
+	width:50%;
+	margin-left: 2em;
+	text-align: right;
+	outline: 1px solid blue;
 }
 .container-fluid{
 padding:0;
@@ -25,8 +42,7 @@ padding:0;
     content:"";
     border-bottom: 1px solid white;
     padding: 0 5.5em;
-     margin-left: 3em;
-
+    margin-left: 3em;
 }
  .lines::before{
     content:"";
@@ -78,18 +94,48 @@ padding:0;
 }
 section{
 	height: 100vh;
-	background-size: cover; 
 	background-position: bottom;
-	background-repeat: no-repeat;
-	z-index: -1;
 }
 footer{
-	background-color: gray;
-	height: 80vh;
+	background-color: #292828;
+	padding: 3%;
+	/*height: 80vh;*/
+	color:#fff;
+	line-height: 3em;
 }
 ul{
 	list-style: none;
 }
-li{
-
+.item{
+	color: #fff;
+}
+.logo-footer{
+  width: 8em;
+}
+.footer1 {
+  float: left;
+  list-style: none;
+  text-align: left;
+}
+.footer1 li a{
+  text-decoration: none;
+  line-height: 3em;
+  color: white;
+}
+.footer1 li a:hover{
+  line-height: 3em;
+  color: #F7B617;
+  text-decoration: underline;
+}
+.icon-footer{
+  color: #FFFF;
+  padding-top: 20em;
+}
+.logo-app{
+  width: 10em;
+  padding-top: 13em;
+  padding-bottom: 2em;
+}
+.logo-app2{
+  width: 10em;
 }
