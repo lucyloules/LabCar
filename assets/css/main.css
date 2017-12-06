@@ -1,8 +1,95 @@
+body{
+	color: #fff;
+	background-color: ##ffc107;
+}
+
 .taxi{
 	background-image: url(../images/taxi.jpg);
-	background-size: cover; 
-	background-repeat: no-repeat;
+
 }
 .text-rigth{
-	background-color: yellow;
+	padding-left: 3%;
+	background-color: #ffc107;
+	float: right;
+	color: #fff;
+}
+.logo-white{
+	width: 15%;
+	background-image: url(../images/logoBlanco.png); 
+}
+.container-fluid{
+padding:0;
+}
+
+.lines::after{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5.5em;
+     margin-left: 3em;
+
+}
+ .lines::before{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5.5em;
+    margin-right: 3em;
+    margin-left: 1.5em;
+}
+.cell{
+	background-color: #ffc107;
+	height: 70vh;
+}
+.phone{
+	width:50%;
+	height: 50vh;
+/*	padding: 5%;*/
+	background-image:url(../images/iPhone6Plus.png); 
+	background-repeat: no-repeat;
+	background-size: 40%;
+	outline: 1px solid green;
+
+}
+.border{
+	border: 1px solid #fff;
+	padding: 2%;
+}
+.text-phone{
+	color: #fff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 14%;
+	padding-right: 14%;
+	text-align: justify;
+	outline: 1px solid red;
+}
+.section-driver{
+	background-image: url(../images/conduce.jpg);
+}
+.text-conduce{
+	float: right;
+}
+.text-tarifas{
+	padding: 10%;
+	opacity: 0.6;
+	outline: 1px solid red;
+}
+.section-map{
+
+}
+section{
+	height: 100vh;
+	background-size: cover; 
+	background-position: bottom;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+footer{
+	background-color: gray;
+	height: 80vh;
+}
+ul{
+	list-style: none;
+}
+li{
+
 }

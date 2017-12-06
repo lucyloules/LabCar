@@ -12,11 +12,11 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <!-- Encabezado y Barra de Navegación -->
     <header>
       <div class="row">
-        <div class="col-12">
+        <div class="col-md-12">
           <nav class="navbar navbar-default navbar-fixed-top">
            <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -45,19 +45,114 @@
         </div>
       </div>
     </header>
-    <section class="container taxi">
+        <!-- seccion principal -->
+    <section class="container-fluid taxi">
       <div class="row">
-        <div class="col-4 text-rigth">
-          <div class="col-12">
+        <div class="col-md-4 text-rigth">
+          <div class="col-md-12">
             <h2>Disfruta del viaje</h2>
             <h2>Eres el dueño de tu tiempo</h2>
             <p>Viaja con</p>
-            <img src="assets/images/logoBlanco.png">
-            <button type="button" class="btn btn-default navbar-btn">Registrate</button>
+            <div class="logo-white">
+             <!-- <img src="assets/images/logoBlanco.png"> --> 
+            </div>
+            
+            <button type="button" class="btn btn-default navbar-btn">REGISTRATE</button>
+            <p class="lines">o bien</p>
+            <button type="button" class="btn btn-default navbar-btn">Conviértete en un conductor</button>
           </div>
         </div>
       </div>
     </section>
+        <!-- seccion del telefono celular -->
+    <section class="cell">
+      <div class="container-fluid">
+         <div class="row">
+        <div class="col-md-12 border">
+          <div class="col-md-6 phone"></div>
+          <div class="col-md-6 text-phone">
+            <div class="col-md-12">
+              <h3>Descarga la nueva app</h3>
+              <p class="paragraph">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+              <p class="paragraph">Con solo tocar un botón, un auto llega justo a tu ubicació. súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+        <!-- seccion del chofer -->
+    <section class="section-driver">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 text-condu">
+            <h3>Conduce cuando quieras</h3>
+            <p class="paragraph">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+            <button type="button" class="btn btn-default navbar-btn">Conviértete en un conductor</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion del mapa -->
+    <section class="section-map">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-md-12 text-tarifas">
+              <h3>Tarifas</h3>
+              <p>Consulta las tarifas LabCar aquí</p>
+              <input type="text" placeholder="Ingresa tu punto de partida"> 
+              <input type="text" placeholder="Ingresa tu destino">
+              <button type="button" class="btn btn-default navbar-btn">¡TRAZAR RUTA!</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- insertar mapa -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-12">
+          <h2>Lab<car</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <!-- iconos sociales -->
+        </div>
+        <div class="col-md-3">
+          <ul class="list1">
+            <li>Viaja</li>
+            <li>Conduce</li>
+            <li>Ciudades</li>
+            <li>Ciudades</li>
+            <li>Entregas</li>
+            <li>¿Cómo funciona?</li>
+            <li>Paises</li>
+            <li>Seguridad</li>
+          </ul>
+
+        </div>
+        <div class="col-md-3"></div>
+        <ul class="list2">
+            <li>Oportunidades</li>
+            <li>Nuestra Historia</li>
+            <li>Api de LabCar</li>
+            <li>Eventos</li>
+            <li>Desarrolladores</li>
+            <li>Servicios</li>
+            <li>Laboratoria</li>
+            <li>Coders</li>
+          </ul>
+        <div class="col-md-3">
+           <img class="appstore" src="assets/images/appstore.png" alt="appstore">
+          <img class="googlePlay" src="assets/images/enBadgeWebGeneric.png" alt="Google Play">
+        </div>
+      </div>
+    </footer>
   </div>
 
   <!-- Latest compiled and minified JavaScript -->
